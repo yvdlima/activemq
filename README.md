@@ -7,7 +7,7 @@ https://issues.apache.org/jira/browse/AMQ-7121
 
 The issues only mentions Java 11 but this affects any program with a custom socket class.
 
-To build the patched activemq-client `jar` go to the `activemq-5.4` branch, run mvn package command for activemq-client
+To build the patched activemq-client `jar` go to the `activemq-5.14.x` branch, run mvn package command for activemq-client
 then copy the resulting jar: `activemq-client/target/activemq-client-5.14.5.jar` to your project.
 
 Welcome to Apache ActiveMQ 
