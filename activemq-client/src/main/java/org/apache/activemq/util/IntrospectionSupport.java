@@ -175,6 +175,8 @@ public final class IntrospectionSupport {
                 return false;
             }
 
+            setter.setAccessible(true);
+
             // If the type is null or it matches the needed type, just use the
             // value directly
             if (value == null || value.getClass() == setter.getParameterTypes()[0]) {
